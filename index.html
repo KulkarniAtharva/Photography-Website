@@ -11,24 +11,24 @@
 </head>
 <body>
 
-<span style="line-height: 50px;"><img src="pk1.png" width="80" style="float: left;"><p class="name" style="font-size: 25px;">&nbsp;&nbsp;&nbsp;Prajwal Kotian</p></span>
+<div style="line-height: 105px;top: 50%" ><img src="pk1.png" width="80" style="float: left;"><p class="name" style="font-size: 50px;font-family: customBold;">&nbsp;&nbsp;&nbsp;Prajwal Kotian</p></div>
 
 <BR>
 
-
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Home')" id="defaultOpen">Home</button>
-  <button class="tablinks" onclick="openCity(event, 'Animal')">Animal</button>
-  <button class="tablinks" onclick="openCity(event, 'Plant')">Plant</button>
-  <button class="tablinks" onclick="openCity(event, 'Nature')">Nature</button>
-  <button class="tablinks" onclick="openCity(event, 'Food')">Food</button>
-  <button class="tablinks" onclick="openCity(event, 'Adobe Illustrator')"><span style="color: #FF7435">Adobe Illustrator</span></button>
-  <button class="tablinks" onclick="openCity(event, 'About')">About</button>
+  <button class="tablinks" onclick="openCity(event, 'Home')" id="defaultOpen"><div class="text" style="font-family: customBold; font-size: 30px">Home</div></button>
+  <button class="tablinks" onclick="openCity(event, 'Animal')"><div class="text" style="font-family: customBold;font-size: 30px">Animal</div></button>
+  <button class="tablinks" onclick="openCity(event, 'Plant')"><div class="text" style="font-family: customBold;font-size: 30px">Plant</div></button>
+  <button class="tablinks" onclick="openCity(event, 'Nature')"><div class="text" style="font-family: customBold;font-size: 30px">Nature</div></button>
+  <button class="tablinks" onclick="openCity(event, 'Food')"><div class="text" style="font-family: customBold;font-size: 30px">Food</div></button>
+  <button class="tablinks" onclick="openCity(event, 'Drawing')"><div class="text" style="font-family: customBold;font-size: 30px">Drawing</div></button>
+  <button class="tablinks" onclick="openCity(event, 'Adobe Illustrator')"><div class="text" style="color: #FF7435; font-family: customBold;font-size: 25px">Adobe Illustrator</div></button>
+  <button class="tablinks" onclick="openCity(event, 'About')"><div class="text" style="font-family: customBold;font-size: 30px">About</div></button>
 </div>
+
 
 <div id="Home" class="tabcontent">
   <h3 class="name">Home</h3>
-  <p class="name">This is the home page</p>
 
   <img src="pk1.png" width="200px">
   <img src="pk1.png" width="200px">
@@ -40,7 +40,6 @@
 
 <div id="Animal" class="tabcontent">
   <h3 class="name">Animals</h3>
-  <p class="name">This is portfolio</p> 
 
   <img src="pk2.jpg" width="200px">
   <img src="pk3.jpg" width="200px"><BR>
@@ -50,33 +49,30 @@
 </div>
 
 <div id="Plant" class="tabcontent">
-  <h3 class="name">About</h3>
-  <p class="name">Myself Prajwal Kotian </p>
+  <h3 class="name">Plant</h3>
 </div>
 
 <div id="Nature" class="tabcontent">
-  <h3 class="name">About</h3>
-  <p class="name">Myself Prajwal Kotian </p>
-</div>
-
-<div id="Plant" class="tabcontent">
-  <h3 class="name">About</h3>
-  <p class="name">Myself Prajwal Kotian </p>
+  <h3 class="name">Nature</h3>
 </div>
 
 <div id="Food" class="tabcontent">
-  <h3 class="name">About</h3>
-  <p class="name">Myself Prajwal Kotian </p>
+  <h3 class="name">Food</h3>
+
+</div>
+
+<div id="Drawing" class="tabcontent">
+  <h3 class="name">Drawing</h3>
+
 </div>
 
 <div id="Adobe Illustrator" class="tabcontent">
-  <h3 class="name">About</h3>
-  <p class="name">Myself Prajwal Kotian </p>
+  <h3 class="name">Adobe Illustrator</h3>
 </div>
 
 <div id="About" class="tabcontent">
-  <h3 class="name">About</h3>
-  <p class="name">Myself Prajwal Kotian, a student at BYK College persuing Bachelors of Business Administration(BBA) having a keen interest in photography.</p>
+  <img src="h.jpeg" alt="Prajwal Kotian" width="100px">
+  <p class="name" style="font-family: customBold; font-size: 30px">Myself Prajwal Kotian, a student at BYK College persuing Bachelors of Business Administration in International Business(BBA IB) having a keen interest in photography.</p>
 </div>
 
 <script>
@@ -99,6 +95,10 @@ function openCity(evt, cityName)
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
+
+
+
+
 </script>
    
 </body>
